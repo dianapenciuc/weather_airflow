@@ -21,7 +21,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.tree import DecisionTreeRegressor
 from sklearn.ensemble import RandomForestRegressor
 
-API_KEY = '4ad88535ed5db0323b8a8e4cbacd9ab8'
+API_KEY = ''
 base_url = 'https://api.openweathermap.org/data/2.5/weather?q='
 data_dir = '/app/raw_files/'
 
