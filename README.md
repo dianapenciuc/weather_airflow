@@ -13,7 +13,8 @@ different machine learning models on the dataset. The ML models are evaluated in
 - **Machine Learning**: Trains a machine learning algorithm using the processed dataset.
 
 ## Prerequisites
-Before running the project, ensure the requirements in requirements.txt are installed.
-You have a valid API key to access the OpenWeatherMap API.
+Before running the project, ensure that:
+1. The requirements in requirements.txt are installed.
+2. You have a valid API key to access the OpenWeatherMap API.
 
   
