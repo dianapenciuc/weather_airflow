@@ -162,17 +162,6 @@ services:
       timeout: 10s
       retries: 5
     restart: always
-  dashboard:
-    image: datascientest/dashapp:1.0.0
-    volumes:
-      - type: bind
-        source: ./clean_data
-        target: /app/clean_data
-      - type: bind
-        source: ./raw_files
-        target: /app/raw_files
-    ports:
-      - 8050:8050
 
 volumes:
   postgres-db-volume:
